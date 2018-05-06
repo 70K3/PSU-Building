@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">PSU PK Building</string>
+    <string name="ar">Augmented Reality</string>
+    <string name="ev">Events</string>
+    <string name="mp">Map</string>
+    <string name="ext">Exit</string>
+    <!--MAps-->
+    <string name="pointyou">คุณ</string>
+
+    <string name="build1">อาคาร1</string>
+    <string name="dbuild1">คณะเทคโนโลยีและสิ่งแวดล้อม</string>
+
+    <string name="build2">อาคาร2</string>
+    <string name="dbuild2">คณะเการบริการและการท่องเเที่ยว</string>
+
+    <string name="build3">อาคาร3</string>
+    <string name="dbuild3">คณะวิเทศศึกษา</string>
+    <string name="dbuild31">ห้องประชุมอนุภาษฯ</string>
+
+    <string name="build4">อาคาร4</string>
+    <string name="dbuild4"></string>
+
+    <string name="build5">อาคาร5</string>
+    <string name="dbuild5">อาคารวิทยบริการ(ห้องสมุด)</string>
+    <string name="dbuild51">อาคารวิทยบริการ(อาคารเรียน)</string>
+
+    <string name="build6">อาคาร6</string>
+    <string name="dbuild6">ภาควิชาวิศวกรรมคอมพิวเตอร์</string>
+    <string name="dbuild61">อาคารเรียนรวมและปฏิบัตการกลาง</string>
+
+    <string name="build7">อาคาร7</string>
+    <string name="dbuild7">สำนักงานอธิการบดี</string>
+
+    <string name="build8">โรงอาหาร</string>
+    <string name="dbuild8">แคนทีนเก่า</string>
+
+    <string name="build9">อาคารอเนกประสงค์</string>
+    <string name="dbuild9">แคนทีนใหม่,ฟิตเนต</string>
+
+    <string name="build10">โรงยิม</string>
+    <string name="dbuild10">อาคารกีฬาในร่ม</string>
+
+    <string name="build11">โรงยิมใหม่</string>
+    <string name="dbuild11">Sport complex</string>
+
+    <string name="build12">สนามฟุตบอล</string>
+    <string name="build13">สนามเทนนิส</string>
+    <string name="build14">สนามบาสเกตบอล</string>
+
+    <string name="build15">หอพักนักศึกษา</string>
+    <string name="dbuild15">หอพักนักศึกษาชาย</string>
+    <string name="dbuild151">หอพักนักศึกษาในกำกับ 1-2 </string>
+    <string name="dbuild152">หอพักนักศึกษาในกำกับ 3 </string>
+    <string name="build16">หอพักบุคคลากร</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--NEws-->
+    <string name="name">Name : </string>
+    <string name="time">Time : </string>
+    <string name="Place">Place : </string>
+    <string name="detail">Detail</string>
+    <string name="date">Date</string>
+</resources>

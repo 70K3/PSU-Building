@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Events.DetailEventFragment"
+    android:background="#C5CAE9">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvName2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="@string/name"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:background="@color/BlueGray50"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/BlueGray100"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="สถานที่  " />
+
+            <TextView
+                android:id="@+id/tvPlace2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/Place"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/BlueGray50"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="วันที่  " />
+
+            <TextView
+                android:id="@+id/tvDate2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/date"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/BlueGray100"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="เวลา  " />
+
+            <TextView
+                android:id="@+id/tvStime"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/time"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=" - "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvEtime"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/time"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@color/BlueGray50"
+            android:padding="5dp"
+            android:text="รายละเอียด"
+            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/tvDetail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="@string/detail"
+                android:textColor="#000000"
+                android:background="@color/BlueGray100"/>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <ImageView
+                android:id="@+id/ivImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/road"
+                android:padding="5dp"/>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

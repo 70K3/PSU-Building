@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bi1"
+        android:title="คณะเทคโนโลยีและสิ่งแวดล้อม"/>
+    <item
+        android:id="@+id/bi2"
+        android:title="คณะวิศวกรรมศาสตร์"/>
+    <item
+        android:id="@+id/bi3"
+        android:title="คณะวิเทศศึกษา"/>
+    <item
+        android:id="@+id/bi4"
+        android:title="คณะการบริการและการท่องเที่ยว"/>
+    <item
+        android:id="@+id/bi5"
+        android:title="สำนักงานอธิการบดี"/>
+    <item
+        android:id="@+id/bi6"
+        android:title="ห้องประชุมอนุภาษฯ"/>
+    <item
+        android:id="@+id/bi7"
+        android:title="อาคารเรียน 6"/>
+    <item
+        android:id="@+id/bi8"
+        android:title="อาคารเรียน 5"/>
+    <item
+        android:id="@+id/bi9"
+        android:title="ห้องสมุด"/>
+    <item
+        android:id="@+id/bi10"
+        android:title="โรงอาหาร"/>
+    <item
+        android:id="@+id/bi11"
+        android:title="อาคารอเนกประสงค์"/>
+    <item
+        android:id="@+id/bi12"
+        android:title="โรงยิม"/>
+    <item
+        android:id="@+id/bi13"
+        android:title="โรงยิมใหม่"/>
+    <item
+        android:id="@+id/bi14"
+        android:title="สนามฟุตบอล"/>
+    <item
+        android:id="@+id/bi15"
+        android:title="สนามเทนนิส"/>
+    <item
+        android:id="@+id/bi16"
+        android:title="สนามบาสเกตบอล"/>
+    <item
+        android:id="@+id/bi17"
+        android:title="หอพักนักศึกษาชาย"/>
+    <item
+        android:id="@+id/bi18"
+        android:title="หอพัก1-2"/>
+    <item
+        android:id="@+id/bi19"
+        android:title="หอพัก 3"/>
+    <item
+        android:id="@+id/bi20"
+        android:title="หอพักอาจารย์"/>
+
+</menu>
